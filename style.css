@@ -17,6 +17,20 @@ body {
   overflow-x: hidden;
 }
 
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.form-group input:focus,
+.message:focus {
+  outline: none;
+}
+
+.send-btn:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 320px) {
   .header {
     min-height: 100vh;
